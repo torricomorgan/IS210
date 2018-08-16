@@ -1,0 +1,19 @@
+//Boton de sumar
+				 int n1,n2,r=0;
+				 n1=Convert::ToInt32(t1->Text);
+				 n2=Convert::ToInt32(t2->Text);
+				 r=n1+n2;
+				 MessageBox::Show("La suma es= " +r, "Suma");
+         
+//Boton de Multiplicar sumando
+			   int n1,n2,r=0;
+			   n1=Convert::ToInt32(t1->Text);
+				 n2=Convert::ToInt32(t2->Text);
+				 for(int i=1;i<=n2;i++){r+=n1;}
+				 MessageBox::Show("El producto es= " +r, "Multiplicar");
+//Boton de Potencia
+			   int n1,n2,r=1;
+			   n1=Convert::ToInt32(t1->Text);
+				 n2=Convert::ToInt32(t2->Text);
+				 for(int i=1;i<=n2;i++){r*=n1;}
+				 MessageBox::Show("El resultado es= " +r, "Potencia");
